@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1750326886.94857 "d:/KULIAH/SEMESTER 4/PENGANTAR DATA MINING/IEEE-conference-template-062824/IEEE-conference-template-062824.tex" "IEEE-conference-template-062824.pdf" "IEEE-conference-template-062824" 1750326888.98638 0
+["pdflatex"] 1750404815.6552 "d:/KULIAH/SEMESTER 4/PENGANTAR DATA MINING/IEEE-conference-template-062824/IEEE-conference-template-062824.tex" "IEEE-conference-template-062824.pdf" "IEEE-conference-template-062824" 1750404817.64145 0
   "C:/Users/ADVAN/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1750219172 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/ADVAN/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746420867 24225045 35926deb2702c6f8f55dd3e402a904c3 ""
   "C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -84,10 +84,10 @@
   "C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1pcr.fd" 1585253778 1025 1ed784d7bfe47179f3550d2303b073f8 ""
   "C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "IEEE-conference-template-062824.aux" 1750326888 4478 368db0a9acda51ff9556977a3c3548f2 "pdflatex"
-  "IEEE-conference-template-062824.tex" 1750326885 7295 fc4eb9d9fa733926a94eba2d72445eb3 ""
+  "IEEE-conference-template-062824.aux" 1750404817 4873 4f510a41fba8dc00c8caf01a4625b723 "pdflatex"
+  "IEEE-conference-template-062824.tex" 1750404663 9552 dc6127a8318ef58eb6fd347d326400d2 ""
   "IEEEtran.cls" 1750146134 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "d:/KULIAH/SEMESTER 4/PENGANTAR DATA MINING/IEEE-conference-template-062824/IEEE-conference-template-062824.tex" 1750326885 7295 fc4eb9d9fa733926a94eba2d72445eb3 ""
+  "d:/KULIAH/SEMESTER 4/PENGANTAR DATA MINING/IEEE-conference-template-062824/IEEE-conference-template-062824.tex" 1750404663 9552 dc6127a8318ef58eb6fd347d326400d2 ""
   "fig1.png" 1750166837 43244 d7348440db5ab1efb206f7263ee657fd ""
   "fig10.png" 1750231184 13744 440cc3b2a42581f372c5b7ce55051e78 ""
   "fig2.png" 1750130902 41470 419a12f21002a6f9b73e20fb3c88de1f ""
@@ -98,12 +98,12 @@
   "fig7.png" 1750309331 45503 14921112662c220ea06b9410c2cf348d ""
   "fig8.png" 1750309341 28508 f4fcdec91405c4bac37ae46965d7e756 ""
   "fig9.png" 1750231206 21564 6aa8e5d9dcad7c7fb935883e3b9855c0 ""
-  "sections/conclusion/conclusion.aux" 1750326888 717 986762fbcaa6cbabcca2045a0685fdfd "pdflatex"
+  "sections/conclusion/conclusion.aux" 1750404817 717 986762fbcaa6cbabcca2045a0685fdfd "pdflatex"
   "sections/conclusion/conclusion.tex" 1750168349 58 f70f8262435800caee1b796d117adc46 ""
-  "sections/discussion/discussion.tex" 1750315696 3464 635f10d6043dee93ed08675fb8f00cad ""
-  "sections/introduction/introduction.tex" 1750326880 2582 a8b7f58451e0cac96a9ca5cb0d8c98bd ""
-  "sections/method/method.tex" 1750251329 15938 5d265191e7bd03dd5b1aa45ec02edba6 ""
-  "sections/result/result.tex" 1750317815 5648 9bf43dbfa10c7d2dbc50d4074b10cae3 ""
+  "sections/discussion/discussion.tex" 1750404211 3492 ae67717278662ac80eb6bfed72e4e7c9 ""
+  "sections/introduction/introduction.tex" 1750404460 2592 4823b68592f766f14d1ad971cfff24c6 ""
+  "sections/method/method.tex" 1750404812 16054 8444cc9019abd8a620a0be86d81e2d09 ""
+  "sections/result/result.tex" 1750390002 6097 80620f4c76dcdc6b74eb29ade249bcd7 ""
   (generated)
   "IEEE-conference-template-062824.aux"
   "IEEE-conference-template-062824.log"

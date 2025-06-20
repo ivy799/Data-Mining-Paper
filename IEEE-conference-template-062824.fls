@@ -277,6 +277,8 @@ OUTPUT sections\conclusion\conclusion.aux
 INPUT .\sections\conclusion\conclusion.tex
 INPUT .\sections\conclusion\conclusion.tex
 INPUT sections\conclusion\conclusion.tex
+INPUT C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT IEEE-conference-template-062824.aux
