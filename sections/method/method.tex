@@ -1,7 +1,7 @@
 \section{Methodlogy}
 
 \subsection{Study Area}
-This study is based on data from 13 countries across five continents: Australia, Brazil, China, Costa Rica, Ecuador, Italy, Mexico, New Zealand, Norway, Pakistan, South Africa, Taiwan, and Vietnam. The selection of these nations was guided by two primary criteria: a significant diversity of soil types , as indexed by the Harmonized World Soil Database (HWSD) and a high frequency of recorded landslides between 2006 and 2017, as documented in NASA's Global Landslide Catalog.
+This study is based on data from 13 countries across five continents: Australia, Brazil, China, Costa Rica, Ecuador, Italy, Mexico, New Zealand, Norway, Pakistan, South Africa, Taiwan, and Vietnam. The selection of these nations was guided by two primary criteria: a significant diversity of soil types , as indexed by the Harmonized World Soil Database (HWSD) and a high frequency of recorded landslides between 2006 and 2017, as documented in NASA's Global Landslide Catalog (GLC).
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=\linewidth]{fig1.png}}
     \caption{Landslide events vs. unique soil characteristics.}
@@ -11,22 +11,22 @@ Figure~\ref{fig:landslide-soil-distribution} illustrates the distribution of lan
 
 
 \subsection{Datasets}
-This study integrates data from three primary sources. Soil characteristics were derived from the Harmonized World Soil Database (HWSD), a 30 arc-second raster database providing presents soil information collected from various regional and national sources, including the European Digital Map (ESDE), the 1:1,000,000 scale Soil Map of China, and various legacy soil maps from FAO. Data from these different sources were harmonized using standard procedures. The database consists of a raster image that is linked to the attribute database through a unique code of the soil mapping unit. For each mapping unit, the database provides information on the composition of the soil types present in it (dominant soils and accompanying soils). It also contains quantitative data on soil physical and chemical properties for two depth layers, namely topsoil (0-30 cm) and subsoil (30-100 cm). These attributes include organic carbon content, pH, water holding capacity, soil depth, cation exchange capacity, clay fraction, salinity, and soil texture. Table 1 describes the classification of data sources and their data types and table 2 describes general information on the soil mapping unit composition.
+This study integrates data from three primary sources. Soil characteristics were derived from the Harmonized World Soil Database (HWSD), a 30 arc-second raster database providing presents soil information collected from various regional and national sources, including the European Soil Database (ESDB), the 1:1,000,000 scale Soil Map of China, and various legacy soil maps from Food and Agriculture Organization (FAO). Data from these different sources were harmonized using standard procedures. The database consists of a raster image that is linked to the attribute database through a unique code of the soil mapping unit. For each mapping unit, the database provides information on the composition of the soil types present in it (dominant soils and accompanying soils). It also contains quantitative data on soil physical and chemical properties for two depth layers, namely topsoil (0-30 cm) and subsoil (30-100 cm). These attributes include organic carbon content, pH, water holding capacity, soil depth, cation exchange capacity, clay fraction, salinity, and soil texture. Table 1 describes the classification of data sources and their data types and table 2 describes general information on the soil mapping unit composition.
 
 \begin{table}[H]
 \caption{Data Sources and Outputs in the Harmonized World Soil Database}
 \centering
-\begin{tabular}{|c|l|l|l|} % Only 4 columns, not 5
+\begin{tabular}{|c|l|l|l|} 
 \hline
 \textbf{No.} & \multicolumn{1}{|c|}{\textbf{Data Source}} & \multicolumn{1}{|c|}{\textbf{Format}} & \multicolumn{1}{|c|}{\textbf{Output}} \\
-\cline{2-4} % Line only under columns 2 to 4
+\cline{2-4} 
 \textbf{} & \textbf{\textit{Database Name}} & \textbf{\textit{Data Type}} & \textbf{\textit{Resolution/Quantity}} \\
 \hline
 1 & ESDB & Geo. DB & Raster $\sim$1 km \\
 \hline
 2 & Soil Map China & Digital Map & Raster $\sim$1 km \\
 \hline
-3 & SOTER (SOTWIS) & Soil & Raster $\sim$1 km \\
+3 & SOTER (World Soils and Terrain Database) (SOTWIS: SOTER World Information System) & Soil & Raster $\sim$1 km \\
 \hline
 4 & Soil Map World & Digital Map & Raster $\sim$1 km \\
 \hline
@@ -60,7 +60,7 @@ This integration process was guided by two primary references: the HWSD Technica
 \centering
 \begin{tabular}{|p{2cm}|p{2.8cm}|c|}
 \hline
-\textbf{Field} & \textbf{Description} & \textbf{DSMW} \\
+\textbf{Field} & \textbf{Description} & \textbf{DSMW (Digital Soil Map of the World)} \\
 \hline
 \multicolumn{3}{|l|}{\textbf{General}} \\
 \hline
@@ -103,7 +103,7 @@ Statistical analysis was conducted to identify significant differences in soil c
 
 The main objective of these tests was to calculate the p-value for each soil feature. The p-value quantifies the probability that an observed difference between the groups is merely due to random chance. A lower p-value indicates a more statistically significant difference, suggesting that the corresponding soil feature is a meaningful differentiator between landslide and non-landslide conditions.
 
-The mathematical formulation for the independent samples t-test is presented in Equation~\ref{eq:t_test}, while the formula for the Mann-Whitney U test is detailed in Equation~\ref{eq:mann_whitney}.
+The mathematical formulation for the independent samples t-test is presented in (\ref{eq:t_test}), while the formula for the Mann-Whitney U test is detailed in (\ref{eq:mann_whitney}).
 
 \begin{equation} \label{eq:t_test}
 t = \frac{\bar{x}_1 - \bar{x}_2}{s_p \cdot \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}
@@ -123,7 +123,7 @@ U_1 &= n_1n_2 + \frac{n_1(n_1 + 1)}{2} - R_1 \label{eq:U1} \\
 U_2 &= n_1n_2 + \frac{n_2(n_2 + 1)}{2} - R_2 \label{eq:U2}
 \end{align}
 \subsubsection{machine learning modeling}
-For the primary classification task, this study utilized the Extreme Gradient Boosting (XGBoost) model\cite{mthd05}. XGBoost is a highly efficient and scalable implementation of the gradient tree boosting algorithm, widely regarded as a state-of-the-art machine learning method. It employs a regularized boosting technique, which effectively mitigates overfitting and thereby enhances model accuracy and generalization performance. The selection of XGBoost was motivated by its numerous advantages, including its scalability across diverse scenarios, inherent capability to handle sparse data, low computational resource requirements, high-performance speed, and ease of implementation. The fundamental principle of the boosting algorithm is to sequentially combine the outputs of multiple weak learners---in this case, Classification and Regression Trees (CARTs)---to create a single, robust predictive model. The core of the algorithm aims to minimize the regularized objective function, as formulated in Equation~\ref{eq:objective_function}. This function is composed of two main parts: a loss function and a regularization term. The loss function measures the discrepancy between the actual target ($y_i$) and the prediction ($\hat{y}_i$). The second component, the regularization term detailed in Equation~\ref{eq:regularization_term}, penalizes the complexity of the model to avoid overfitting. The overall algorithmic process is described by Equations~\ref{eq:objective_function} through \ref{eq:simplified_objective_function_t}.
+For the primary classification task, this study utilized the Extreme Gradient Boosting (XGBoost) model\cite{mthd05}. XGBoost is a highly efficient and scalable implementation of the gradient tree boosting algorithm, widely regarded as a state-of-the-art machine learning method. It employs a regularized boosting technique, which effectively mitigates overfitting and thereby enhances model accuracy and generalization performance. The selection of XGBoost was motivated by its numerous advantages, including its scalability across diverse scenarios, inherent capability to handle sparse data, low computational resource requirements, high-performance speed, and ease of implementation. The fundamental principle of the boosting algorithm is to sequentially combine the outputs of multiple weak learners---in this case, Classification and Regression Trees (CART)---to create a single, robust predictive model. The core of the algorithm aims to minimize the regularized objective function, as formulated in Equation~\ref{eq:objective_function}. This function is composed of two main parts: a loss function and a regularization term. The loss function measures the discrepancy between the actual target ($y_i$) and the prediction ($\hat{y}_i$). The second component, the regularization term detailed in (\ref{eq:regularization_term}), penalizes the complexity of the model to avoid overfitting. The overall algorithmic process is described by (\ref{eq:objective_function}) through (\ref{eq:simplified_objective_function_t}).
 % Equation (3) - Objective Function
 \begin{equation} \label{eq:objective_function}
 L(\Phi) = \sum_i l(\hat{y}_i, y_i) + \sum_k \Omega(f_k)
@@ -145,7 +145,7 @@ where:
 L^{(t)}(\Phi) = \sum_{i=1}^n l(y_i, \hat{y}_i^{(t-1)} + f_t(x_i)) + \Omega(f_t)
 \end{equation}
 
-In order to speed up the optimization process, second order Taylor expansion is applied to the objective. After removing the constant terms, a simplified objective function at step $t$ is given in Equation~\ref{eq:simplified_objective_function_t}.
+In order to speed up the optimization process, second order Taylor expansion is applied to the objective. After removing the constant terms, a simplified objective function at step $t$ is given in (\ref{eq:simplified_objective_function_t}).
 
 % Equation (6) - Simplified Objective Function at iteration t
 \begin{equation} \label{eq:simplified_objective_function_t}
@@ -169,7 +169,7 @@ The primary evaluation metric for this study was the F1-Score, which is the harm
     \label{fig}
 \end{figure}
 
-The sensitivity (True positive or Recall) tells the proportion of positive class (landslides locations) that are correctly classified as landslides Equation~\ref{eq:sensitivity}. In contrast, the specificity (True Negative Rate) tells the proportion of negative class (non-landslides locations) that are correctly classified as non-landslides Equation~\ref{eq:specificity}. Between sensitivity and specificity lies False Negative Rate (FNR), which signifies the proportion of landslide points wrongly classified as landslides Equation~\ref{eq:FNR}. The False Positive Rate (FPR) tells the proportion of non-landslides incorrectly classified as non-landslides Equation~\ref{eq:FPR}.
+The sensitivity (True positive or Recall) tells the proportion of positive class (landslides locations) that are correctly classified as landslides (\ref{eq:sensitivity}). In contrast, the specificity (True Negative Rate) tells the proportion of negative class (non-landslides locations) that are correctly classified as non-landslides (\ref{eq:specificity}). Between sensitivity and specificity lies False Negative Rate (FNR), which signifies the proportion of landslide points wrongly classified as landslides (\ref{eq:FNR}). The False Positive Rate (FPR) tells the proportion of non-landslides incorrectly classified as non-landslides (\ref{eq:FPR}).
 
 \begin{equation} \label{eq:sensitivity}
 \text{sensitivity} = \frac{TP}{TP + FN}
