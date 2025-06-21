@@ -1,2 +1,9 @@
 \section{Conclusion}
-% Tulis isi bab kesimpulan di sini
+
+The results of this study demonstrate that stratifying soil characteristics by depth—topsoil and subsoil—offers a more nuanced understanding of their respective contributions to landslide susceptibility. The XGBoost model trained on subsoil features outperformed the topsoil-based model (AUC = 0.7205 vs. 0.6984), while the combined model yielded the highest performance (AUC = 0.85; F1-score = 0.68). These findings confirm that incorporating a holistic soil profile enhances predictive accuracy.
+
+The application of SMOTE to address class imbalance, coupled with Bayesian Optimization for hyperparameter tuning, proved effective in increasing the model’s sensitivity to landslide events. Nonetheless, limitations persist in the generalizability of the optimized parameters, as the best-performing configuration in one cross-validation fold may not consistently perform well across others.
+
+Feature importance analysis indicated that subsoil chemical properties—such as calcium carbonate content and electrical conductivity—play a pivotal role in landslide prediction. Additionally, soil textural attributes and cation exchange capacity further contributed to improved model performance, underscoring the complex interplay between physical and chemical soil factors in landslide initiation.
+
+This study advances the development of soil-based early warning systems and provides valuable insights into key indicators of landslide risk. Future research should consider incorporating additional environmental variables, such as rainfall intensity, slope gradient, and land cover, to construct more comprehensive and spatially robust predictive models.
