@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1750642861.88358 "d:/KULIAH/SEMESTER 4/PENGANTAR DATA MINING/IEEE-conference-template-062824/IEEE-conference-template-062824.tex" "IEEE-conference-template-062824.pdf" "IEEE-conference-template-062824" 1750642864.365 0
+["pdflatex"] 1750644201.88639 "d:/KULIAH/SEMESTER 4/PENGANTAR DATA MINING/IEEE-conference-template-062824/IEEE-conference-template-062824.tex" "IEEE-conference-template-062824.pdf" "IEEE-conference-template-062824" 1750644204.51704 0
   "C:/Users/ADVAN/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1750219172 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/ADVAN/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746420867 24225045 35926deb2702c6f8f55dd3e402a904c3 ""
   "C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -115,11 +115,11 @@
   "C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "IEEE-conference-template-062824.aux" 1750642864 6170 718924ea943da3238ecc4ca71017e8f1 "pdflatex"
-  "IEEE-conference-template-062824.out" 1750642864 1218 07a619ff993d756cee23e755fb8ace59 "pdflatex"
-  "IEEE-conference-template-062824.tex" 1750641153 7724 66f4e74c9937afbebd35eb2a6afa6b95 ""
+  "IEEE-conference-template-062824.aux" 1750644204 6171 99ea99124a1a953b0eb9d3ddb9448352 "pdflatex"
+  "IEEE-conference-template-062824.out" 1750644204 1223 6f0d4b055171a2da53367aafb75376aa "pdflatex"
+  "IEEE-conference-template-062824.tex" 1750643969 7724 66f4e74c9937afbebd35eb2a6afa6b95 ""
   "IEEEtran.cls" 1750146134 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "d:/KULIAH/SEMESTER 4/PENGANTAR DATA MINING/IEEE-conference-template-062824/IEEE-conference-template-062824.tex" 1750641153 7724 66f4e74c9937afbebd35eb2a6afa6b95 ""
+  "d:/KULIAH/SEMESTER 4/PENGANTAR DATA MINING/IEEE-conference-template-062824/IEEE-conference-template-062824.tex" 1750643969 7724 66f4e74c9937afbebd35eb2a6afa6b95 ""
   "fig1.png" 1750166837 43244 d7348440db5ab1efb206f7263ee657fd ""
   "fig10.png" 1750231184 13744 440cc3b2a42581f372c5b7ce55051e78 ""
   "fig2.png" 1750130902 41470 419a12f21002a6f9b73e20fb3c88de1f ""
@@ -131,10 +131,10 @@
   "fig8.png" 1750309341 28508 f4fcdec91405c4bac37ae46965d7e756 ""
   "fig9.png" 1750231206 21564 6aa8e5d9dcad7c7fb935883e3b9855c0 ""
   "sections/conclusion/conclusion.tex" 1750416857 1688 d61824c4a6a29b10295d08e3d4fe1524 ""
-  "sections/discussion/discussion.tex" 1750642860 3412 9aef1deed7a81a4a46045557625f9089 ""
+  "sections/discussion/discussion.tex" 1750644200 3414 5120e9cde610f676013bfcd4363e3a1e ""
   "sections/introduction/introduction.tex" 1750502099 2595 6ad49d58ed9d3a71357888416cf0414f ""
   "sections/method/method.tex" 1750642528 15950 00efbff3e462dd0f806ccd85e7297b6d ""
-  "sections/result/result.tex" 1750642661 6055 4d0d199466f103156662a80a4b99c60b ""
+  "sections/result/result.tex" 1750643982 6056 0fda8e7d9cb7e28fb9df315f2ac8ed89 ""
   (generated)
   "IEEE-conference-template-062824.aux"
   "IEEE-conference-template-062824.log"
