@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.5)  21 JUN 2025 18:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.5)  23 JUN 2025 09:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -426,18 +426,12 @@ Package pdftex.def Info: fig1.png  used on input line 6.
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<fig2.png, id=68, 683.55376pt x 432.61626pt>
+<fig2.png, id=70, 683.55376pt x 432.61626pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
 Package pdftex.def Info: fig2.png  used on input line 52.
 (pdftex.def)             Requested size: 252.0pt x 159.4846pt.
-
-Underfull \vbox (badness 1052) has occurred while \output is active []
-
- [2 <./fig1.png> <./fig2.png>]
-<fig3.png, id=80, 804.00375pt x 723.70375pt>
+<fig3.png, id=72, 804.00375pt x 723.70375pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
 Package pdftex.def Info: fig3.png  used on input line 85.
@@ -445,45 +439,46 @@ Package pdftex.def Info: fig3.png  used on input line 85.
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 91.
  (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<fig4.png, id=86, 714.7503pt x 426.393pt>
+) [2 <./fig1.png> <./fig2.png>]
+<fig4.png, id=90, 714.7503pt x 426.393pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
 Package pdftex.def Info: fig4.png  used on input line 95.
 (pdftex.def)             Requested size: 252.0pt x 150.33282pt.
  [3 <./fig3.png> <./fig4.png>]
-<fig5.png, id=125, 498.86375pt x 490.83376pt>
+<fig5.png, id=130, 498.86375pt x 490.83376pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
 Package pdftex.def Info: fig5.png  used on input line 167.
 (pdftex.def)             Requested size: 252.0pt x 247.94023pt.
- [4 <./fig5.png>]) (sections/result/result.tex
-<fig6.png, id=153, 576.65437pt x 381.67593pt>
+) (sections/result/result.tex [4 <./fig5.png>]
+<fig6.png, id=160, 576.65437pt x 381.67593pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
 Package pdftex.def Info: fig6.png  used on input line 7.
 (pdftex.def)             Requested size: 252.0pt x 166.79645pt.
-<fig7.png, id=156, 499.3857pt x 395.3169pt>
+<fig7.png, id=163, 499.3857pt x 395.3169pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
 Package pdftex.def Info: fig7.png  used on input line 19.
 (pdftex.def)             Requested size: 252.0pt x 199.48566pt.
-<fig8.png, id=157, 859.2903pt x 354.123pt>
+<fig8.png, id=164, 859.2903pt x 354.123pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
 Package pdftex.def Info: fig8.png  used on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 103.84937pt.
-<fig9.png, id=159, 323.7696pt x 328.8285pt>
+ [5 <./fig6.png> <./fig7.png> <./fig8.png>]
+<fig9.png, id=177, 323.7696pt x 328.8285pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
 Package pdftex.def Info: fig9.png  used on input line 34.
 (pdftex.def)             Requested size: 252.0pt x 255.9383pt.
-<fig10.png, id=160, 338.2236pt x 284.0211pt>
+<fig10.png, id=178, 338.2236pt x 284.0211pt>
 File: fig10.png Graphic file (type png)
 <use fig10.png>
 Package pdftex.def Info: fig10.png  used on input line 39.
 (pdftex.def)             Requested size: 252.0pt x 211.61548pt.
- [5 <./fig6.png>]) (sections/discussion/discussion.tex [6 <./fig7.png> <./fig8.png> <./fig9.png> <./fig10.png>]) (sections/conclusion/conclusion.tex) [7]
+) (sections/discussion/discussion.tex [6 <./fig9.png> <./fig10.png>]) (sections/conclusion/conclusion.tex)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -495,9 +490,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[8
-
-] (IEEE-conference-template-062824.aux)
+[7] (IEEE-conference-template-062824.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -506,17 +499,17 @@ Package rerunfilecheck Info: File `IEEE-conference-template-062824.out' has not 
 (rerunfilecheck)             Checksum: 07A619FF993D756CEE23E755FB8ACE59;1218.
  ) 
 Here is how much of TeX's memory you used:
- 11688 strings out of 474486
- 185752 string characters out of 5743756
- 1947542 words of memory out of 5000000
+ 11687 strings out of 474486
+ 185746 string characters out of 5743756
+ 1949542 words of memory out of 5000000
  33723 multiletter control sequences out of 15000+600000
  601155 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,1705b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1670b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IEEE-conference-template-062824.pdf (8 pages, 654069 bytes).
+Output written on IEEE-conference-template-062824.pdf (7 pages, 653968 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
