@@ -4,7 +4,7 @@
 
 
 \subsection{Study Area}
-The data used in this study was acquired from 13 countries across five continents: Australia, Brazil, China, Costa Rica, Ecuador, Italy, Mexico, New Zealand, Norway, Pakistan, South Africa, Taiwan, and Vietnam. The selection of these nations was guided by two primary criteria: a significant diversity of soil types , as indexed by the Harmonized World Soil Database (HWSD) and a high frequency of recorded landslides between 2006 and 2017, as documented in NASA’s Global Landslide Catalog (GLC). Figure [1] illustrates the distribution of landslide events and soil diversity (represented by the count of unique Soil Mapping Units) for the selected countries.
+The data used in this study was acquired from 13 countries across five continents: Australia, Brazil, China, Costa Rica, Ecuador, Italy, Mexico, New Zealand, Norway, Pakistan, South Africa, Taiwan, and Vietnam. The selection of these nations was guided by two primary criteria: a significant diversity of soil types , as indexed by the Harmonized World Soil Database (HWSD) and a high frequency of recorded landslides between 2006 and 2017, as documented in NASA’s Global Landslide Catalog (GLC). Fig [\ref{fig:landslide-soil-distribution}] illustrates the distribution of landslide events and soil diversity (represented by the count of unique Soil Mapping Units) for the selected countries.
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=\linewidth]{fig1.png}}
@@ -12,16 +12,16 @@ The data used in this study was acquired from 13 countries across five continent
     \label{fig:landslide-soil-distribution}
 \end{figure}
 
-Figure [\ref{fig:landslide-soil-distribution}] illustrates the distribution of landslide events and soil diversity (represented by the count of unique Soil Mapping Units) for the selected countries. For most nations, a general correspondence is observed between the two metrics. South Africa, however, presents a notable exception, exhibiting exceptionally high soil diversity relative to its number of recorded landslides. This broad geographical scope inherently introduces significant variations in other key landslide-triggering factors, such as climate patterns (ranging from tropical to temperate), topography (from steep mountainous terrain to gentle hills), and land cover, which is essential for developing a globally generalizable model. For most nations, a general correspondence is observed between the two metrics. South Africa, however, presents a notable exception, exhibiting exceptionally high soil diversity relative Fig. 1. Landslide events vs. unique soil characteristics. to its number of recorded landslides. The broad geographical scope was intentionally chosen to validate the model beyond a single, localized area. This approach ensures the inclusion of significant variations in key landslide-triggering factors such as diverse climate patterns, topography, and land cover which is essential for developing a more robust and globally generalizable model.
 
+For most nations, a general correspondence is observed between the two metrics. South Africa, however, presents a notable exception, exhibiting exceptionally high soil diversity relative to its number of recorded landslides. The broad geographical scope was intentionally chosen to validate the model beyond a single, localized area. This approach ensures the inclusion of significant variations in key landslide-triggering factors such as diverse climate patterns, topography, and land cover which is essential for developing a more robust and globally generalizable model.
 
 
 
 
 \subsection{Datasets}
-This study integrates data from three primary sources. Soil characteristics were derived from the HWSD, a 30 arc-second raster database providing presents soil information collected from various regional and national sources, including the European Soil Database (ESDB), the 1:1,000,000 scale Soil Map of China, and various legacy soil maps from Food and Agriculture Organization (FAO). Data from these different sources were harmonized using standard procedures. The database consists of a raster image that is linked to the attribute database through a unique code of the soil mapping unit. For each mapping unit, the database provides information on the composition of the soil types present in it (dominant soils and accompanying soils). It also contains quantitative data on soil physical and chemical properties for two depth layers, namely topsoil (0-30 cm) and subsoil (30-100 cm). These attributes include organic carbon content, pH, water holding capacity, soil depth, cation exchange capacity, clay fraction, salinity, and soil texture. Table [\ref{tab:hwsd_sources_compact}] describes the classification of data sources and their data types and [\ref{tab:soil_field_availability_small}] describes general information on the soil mapping unit composition.
+This study integrates data from three primary data sources. Soil characteristics were derived from the HWSD, a 30 arc-second raster database providing presents soil information collected from various regional and national sources, including the European Soil Database (ESDB), the 1:1,000,000 scale Soil Map of China, and various legacy soil maps from Food and Agriculture Organization (FAO). The HWSD database consists of a raster image that is linked to the attribute database through a unique code of the soil mapping unit. For each mapping unit, the database provides information on the composition of the soil types present in it (dominant soils and accompanying soils). It also contains quantitative data on soil physical and chemical properties for two depth layers, namely topsoil (0-30 cm) and subsoil (30-100 cm). These attributes include organic carbon content, pH, water holding capacity, soil depth, cation exchange capacity, clay fraction, salinity, and soil texture. Table [\ref{tab:hwsd_sources_compact}] describes the classification of data sources and their data types while Table [\ref{tab:soil_field_availability_small}] describes general information on the soil mapping unit composition.
 
-\begin{table}[H]Add commentMore actions
+\begin{table}[H]
 \caption{Data Sources and Outputs in the Harmonized World Soil Database}
 \centering
 \begin{tabular}{|c|l|l|l|} % Only 4 columns, not 5
@@ -61,14 +61,14 @@ Historical landslide event data were obtained from the GLC, from which we extrac
 
 \subsection{Method}
 
-The methodology adopted in this study is systematically illustrated in [\ref{fig:research-workflow}]. The research commenced with an extensive literature review on soil characteristics and landslide occurrences to gather relevant data. Subsequently, three distinct datasets were compiled and integrated.
+The methodology adopted in this study is systematically illustrated in Fig[\ref{fig:research-workflow}]. The research commenced with an extensive literature review on soil characteristics and landslide occurrences to gather relevant data. Subsequently, three distinct datasets were compiled and integrated.
 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=\linewidth]{fig2.png}}
     \caption{research workflow}
     \label{fig:research-workflow}
 \end{figure}
-This integration process was guided by two primary references: the HWSD Technical Report and Instructions and a technical note by D.G. Rossiter, Processing the HWSD Version 1.2 in R. A detailed flowchart of the data integration procedure is presented in [\ref{fig:data-integration-workflow}]. From the study area, a total of 2,210 landslide and non-landslide data, each corresponding to different soil characteristics, were identified.
+This integration process was guided by two primary references: the HWSD Technical Report and Instructions and a technical note by D.G. Rossiter, Processing the HWSD Version 1.2 in R. A detailed flowchart of the data integration procedure is presented in Fig[\ref{fig:data-integration-workflow}]. From the study area, a total of 2,210 landslide and non-landslide data, each corresponding to different soil characteristics, were identified.
 
 \begin{table}[H]
 \caption{Field Availability in Soil Databases (Simplified)}
@@ -103,7 +103,7 @@ AWC\_CLASS & AWC Class & $\surd$ \\
 \end{figure}
 
 Following data integration, a comprehensive data preprocessing phase was conducted. This began with data cleaning, in which missing values were imputed using the median of their respective columns. Subsequently, outlier handling was performed using the Interquartile Range (IQR) method\cite{mthd01}. This analysis revealed numerous outliers across most feature columns; these were also imputed using the column-specific median in order to maintain data integrity.
-The next stage focused on feature selection. Features were removed based on three criteria: identifier columns (as listed in Table~[\ref{tab:soil_field_availability_small}]), columns containing only a single unique value, and those with low feature importance scores method. A machine learning-based approach using the XGBoost algorithm was employed to assess the importance of each remaining feature\cite{mthd02}. The results of this analysis, visualized in [\ref{fig:feature-importance}], identified two features \texttt{AWC\_CLASS} and \texttt{S\_CASO4} with an importance score of zero. Consequently, these non-contributory features were removed from the dataset.
+The next stage focused on feature selection. Features were removed based on three criteria: identifier columns (as listed in Table~[\ref{tab:soil_field_availability_small}]), columns containing only a single unique value, and those with low feature importance scores method. A machine learning-based approach using the XGBoost algorithm was employed to assess the importance of each remaining feature\cite{mthd02}. The results of this analysis, visualized in Fig[\ref{fig:feature-importance}], identified two features \texttt{AWC\_CLASS} and \texttt{S\_CASO4} with an importance score of zero. Consequently, these non-contributory features were removed from the dataset.
 
 The final preprocessing step was data transformation. Label encoding was applied to the categorical feature 'COUNTRY'. This method was selected for its suitability with tree-based models, which are invariant to the ordinal relationships that might be artificially introduced by other encoding techniques\cite{mthd03}. 
 \begin{figure}[htbp]
@@ -138,7 +138,7 @@ U_1 &= n_1n_2 + \frac{n_1(n_1 + 1)}{2} - R_1 \label{eq:U1} \\
 U_2 &= n_1n_2 + \frac{n_2(n_2 + 1)}{2} - R_2 \label{eq:U2}
 \end{align}
 \subsubsection{machine learning modeling}
-For the primary classification task, this study utilized the XGBoost model\cite{mthd05}. XGBoost is a highly efficient and scalable implementation of the gradient tree boosting algorithm, widely regarded as a state-of-the-art machine learning method. It employs a regularized boosting technique, which effectively mitigates overfitting and thereby enhances model accuracy and generalization performance. The selection of XGBoost was motivated by its numerous advantages, including its scalability across diverse scenarios, inherent capability to handle sparse data, low computational resource requirements, high-performance speed, and ease of implementation. The fundamental principle of the boosting algorithm is to sequentially combine the outputs of multiple weak learners---in this case, Classification and Regression Trees (CART)---to create a single, robust predictive model. The core of the algorithm aims to minimize the regularized objective function, as formulated in (\ref{eq:objective_function}). This function is composed of two main parts: a loss function and a regularization term. The loss function measures the discrepancy between the actual target ($y_i$) and the prediction ($\hat{y}_i$). The second component, the regularization term detailed in (\ref{eq:regularization_term}), penalizes the complexity of the model to avoid overfitting. The overall algorithmic process is described by (\ref{eq:objective_function}) through (\ref{eq:simplified_objective_function_t}).
+For the primary classification task, this study utilized the XGBoost model\cite{mthd05}. XGBoost is a highly efficient and scalable implementation of the gradient tree boosting algorithm, widely regarded as a state-of-the-art machine learning method. It employs a regularized boosting technique, which effectively mitigates overfitting and thereby enhances model accuracy and generalization performance. The selection of XGBoost was motivated by its numerous advantages, including its scalability across diverse scenarios, inherent capability to handle sparse data, low computational resource requirements, high-performance speed, and ease of implementation. The fundamental principle of the boosting algorithm is to sequentially combine the outputs of multiple weak learners in this case, Classification and Regression Trees (CART) to create a single, robust predictive model. The core of the algorithm aims to minimize the regularized objective function, as formulated in (\ref{eq:objective_function}). This function is composed of two main parts: a loss function and a regularization term. The loss function measures the discrepancy between the actual target ($y_i$) and the prediction ($\hat{y}_i$). The second component, the regularization term detailed in (\ref{eq:regularization_term}), penalizes the complexity of the model to avoid overfitting. The overall algorithmic process is described by (\ref{eq:objective_function}) through (\ref{eq:simplified_objective_function_t}).
 % Equation (3) - Objective Function
 \begin{equation} \label{eq:objective_function}
 L(\Phi) = \sum_i l(\hat{y}_i, y_i) + \sum_k \Omega(f_k)
@@ -201,7 +201,7 @@ The sensitivity (True positive or Recall) tells the proportion of positive class
 \begin{equation} \label{eq:FPR}
 \text{FPR} = \frac{FP}{TN + FP} = 1 - \text{specificity}
 \end{equation}
-
+\\
 
 
 
