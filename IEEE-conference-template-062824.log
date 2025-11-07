@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.5)  24 OCT 2025 10:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.5)  7 NOV 2025 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,63 +357,68 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip58
+) (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks27
+\minrowclearance=\skip59
+\rownum=\count297
 ) (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count297
+\l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box60
 ) (IEEE-conference-template-062824.aux)
 \openout1 = `IEEE-conference-template-062824.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 -- Lines per column: 56 (exact).
 (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
+\scratchcounter=\count299
 \scratchdimen=\dimen181
 \scratchbox=\box61
-\nofMPsegments=\count299
-\nofMParguments=\count300
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count301
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count302
 \MPscratchDim=\dimen182
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
-\everyMPtoPDFconversion=\toks28
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks29
 ) (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 23.
  (IEEE-conference-template-062824.out) (IEEE-conference-template-062824.out)
 \@outlinefile=\write3
 \openout3 = `IEEE-conference-template-062824.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 39.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
  (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (sections/introduction/introduction.tex) (sections/method/method.tex [1{C:/Users/ADVAN/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
@@ -428,65 +433,65 @@ Package pdftex.def Info: fig1.png  used on input line 10.
 <fig2.png, id=68, 683.55376pt x 432.61626pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 67.
+Package pdftex.def Info: fig2.png  used on input line 69.
 (pdftex.def)             Requested size: 252.0pt x 159.4846pt.
  [2 <./fig1.png> <./fig2.png>]
-<fig3.png, id=82, 804.00375pt x 723.70375pt>
+<fig3.png, id=83, 804.00375pt x 723.70375pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 100.
+Package pdftex.def Info: fig3.png  used on input line 104.
 (pdftex.def)             Requested size: 252.0pt x 226.83047pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 106.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 111.
  (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<fig4.png, id=88, 714.7503pt x 426.393pt>
+<fig4.png, id=89, 714.7503pt x 426.393pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 110.
+Package pdftex.def Info: fig4.png  used on input line 115.
 (pdftex.def)             Requested size: 252.0pt x 150.33282pt.
  [3 <./fig3.png> <./fig4.png>]
-<fig5.png, id=126, 498.86375pt x 490.83376pt>
+Underfull \hbox (badness 1496) in paragraph at lines 183--184
+\OT1/ptm/m/n/10 val-i-da-tion us-ing a 5-fold Strat-i-fied-K-Fold cross-validation
+ []
+
+<fig5.png, id=128, 498.86375pt x 490.83376pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 182.
+Package pdftex.def Info: fig5.png  used on input line 190.
 (pdftex.def)             Requested size: 252.0pt x 247.94023pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+[4 <./fig5.png>]) (sections/result/result.tex
+Underfull \hbox (badness 10000) in paragraph at lines 212--1
 
  []
 
-) (sections/result/result.tex
-<fig6.png, id=156, 576.65437pt x 381.67593pt>
+<fig6.png, id=159, 576.65437pt x 381.67593pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
 Package pdftex.def Info: fig6.png  used on input line 7.
 (pdftex.def)             Requested size: 252.0pt x 166.79645pt.
- [5 <./fig5.png> <./fig6.png>]
-<fig7.png, id=175, 499.3857pt x 395.3169pt>
+<fig7.png, id=163, 499.3857pt x 395.3169pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
 Package pdftex.def Info: fig7.png  used on input line 21.
 (pdftex.def)             Requested size: 252.0pt x 199.48566pt.
-<fig8.png, id=176, 859.2903pt x 354.123pt>
+<fig8.png, id=164, 859.2903pt x 354.123pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
 Package pdftex.def Info: fig8.png  used on input line 26.
 (pdftex.def)             Requested size: 252.0pt x 103.84937pt.
-<fig9.png, id=178, 323.7696pt x 328.8285pt>
+[5 <./fig6.png> <./fig7.png>]
+<fig9.png, id=180, 323.7696pt x 328.8285pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
 Package pdftex.def Info: fig9.png  used on input line 36.
 (pdftex.def)             Requested size: 252.0pt x 255.9383pt.
-<fig10.png, id=179, 338.2236pt x 284.0211pt>
+<fig10.png, id=181, 338.2236pt x 284.0211pt>
 File: fig10.png Graphic file (type png)
 <use fig10.png>
 Package pdftex.def Info: fig10.png  used on input line 41.
 (pdftex.def)             Requested size: 252.0pt x 211.61548pt.
-) (sections/discussion/discussion.tex [6 <./fig7.png> <./fig8.png> <./fig9.png> <./fig10.png>]) (sections/conclusion/conclusion.tex) [7]
+) (sections/discussion/discussion.tex [6 <./fig8.png> <./fig9.png> <./fig10.png>]) (sections/conclusion/conclusion.tex) [7]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -509,15 +514,15 @@ Package rerunfilecheck Info: File `IEEE-conference-template-062824.out' has not 
 (rerunfilecheck)             Checksum: 6F0D4B055171A2DA53367AAFB75376AA;1223.
  ) 
 Here is how much of TeX's memory you used:
- 11692 strings out of 474486
- 185794 string characters out of 5743756
+ 11789 strings out of 474486
+ 187260 string characters out of 5743756
  1948542 words of memory out of 5000000
- 33725 multiletter control sequences out of 15000+600000
+ 33818 multiletter control sequences out of 15000+600000
  601155 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,1666b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1436b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IEEE-conference-template-062824.pdf (8 pages, 656965 bytes).
+Output written on IEEE-conference-template-062824.pdf (8 pages, 656428 bytes).
 PDF statistics:
  305 PDF objects out of 1000 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)
