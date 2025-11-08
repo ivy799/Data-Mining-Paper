@@ -1,8 +1,5 @@
 \section{Methodology}
 
-
-
-
 \subsection{Study Area}
 The data used in this study was acquired from 13 countries across five continents: Australia, Brazil, China, Costa Rica, Ecuador, Italy, Mexico, New Zealand, Norway, Pakistan, South Africa, Taiwan, and Vietnam. The selection of these nations was guided by two primary criteria: a significant diversity of soil types , as indexed by the Harmonized World Soil Database (HWSD) and a high frequency of recorded landslides between 2006 and 2017, as documented in NASA’s Global Landslide Catalog (GLC). Fig [\ref{fig:landslide-soil-distribution}] illustrates the distribution of landslide events and soil diversity (represented by the count of unique Soil Mapping Units) for the selected countries.
 
@@ -13,14 +10,15 @@ The data used in this study was acquired from 13 countries across five continent
     \vspace{-5mm}
 \end{figure}
 
-
 For most nations, a general correspondence is observed between the two metrics. South Africa, however, presents a notable exception, exhibiting exceptionally high soil diversity relative to its number of recorded landslides. The broad geographical scope was intentionally chosen to validate the model beyond a single, localized area. This approach ensures the inclusion of significant variations in key landslide-triggering factors such as diverse climate patterns, topography, and land cover which is essential for developing a more robust and globally generalizable model.
 
 
-
-
 \subsection{Datasets}
-This study integrates data from three primary data sources. Soil characteristics were derived from the HWSD, a 30 arc-second raster database providing presents soil information collected from various regional and national sources, including the European Soil Database (ESDB), the 1:1,000,000 scale Soil Map of China, and various legacy soil maps from Food and Agriculture Organization (FAO). The HWSD database consists of a raster image that is linked to the attribute database through a unique code of the soil mapping unit. For each mapping unit, the database provides information on the composition of the soil types present in it (dominant soils and accompanying soils). It also contains quantitative data on soil physical and chemical properties for two depth layers, namely topsoil (0-30 cm) and subsoil (30-100 cm). These attributes include organic carbon content, pH, water holding capacity, soil depth, cation exchange capacity, clay fraction, salinity, and soil texture. Table [\ref{tab:hwsd_sources_compact}] describes the classification of data sources and their data types while Table [\ref{tab:soil_field_availability_small}] describes general information on the soil mapping unit composition.
+
+This study integrates data from three major data sources. First, soil characteristics were derived from the Harmonized World Soil Database (HWSD) v1.2\cite{dataset01}. This 30 arc-second raster database harmonizes soil information from various regional and national sources, such as the European Soil Database (ESDB), the 1:1,000,000 scale Soil Map of China, and legacy Food and Agriculture Organization (FAO) soil maps. Structurally, the HWSD consists of a raster image linked to an attribute database via a unique soil mapping unit code. This attribute table provides information on soil composition (dominant and accompanying soils) for each mapping unit. Crucially for this study, the database provides quantitative data on physical and chemical properties for two depth layers: topsoil (0–30 cm) and subsoil (30–100 cm). These attributes include organic carbon content, pH, water holding capacity, soil depth, cation exchange capacity, clay fraction, salinity, and soil texture. Table~[\ref{tab:hwsd_sources_compact}] describes the classification of data sources and their data types, while Table~[\ref{tab:soil_field_availability_small}] describes general information on the soil mapping unit composition.
+
+Second, historical landslide event data were sourced from the GLC\cite{dataset02}. The GLC, developed and maintained by the NASA Goddard Space Flight Center since 2007, is a comprehensive global repository specifically designed to identify rainfall-triggered landslide events, regardless of size, impact, or location. It compiles reports from diverse sources, including media, disaster databases, and scientific reports. For this study, we extracted all documented rainfall-triggered landslide events from the GLC database corresponding to the period of 2006-2017. Finally, all data were geographically contextualized using the Natural Earth 'Admin 0 – Countries' dataset (v5.1.1, 1:10m scale). This dataset provides de facto national administrative boundaries, which reflect actual territorial control, to define the study area\cite{dataset03}.
+\vspace{-3mm} 
 
 \begin{table}[H]
 \caption{Data Sources and Outputs in the Harmonized World Soil Database}
@@ -50,28 +48,6 @@ This study integrates data from three primary data sources. Soil characteristics
 \label{tab:hwsd_sources_compact}
 \vspace{-5mm}
 \end{table}
-
-Historical landslide event data were obtained from the GLC, from which we extracted all documented rainfall-triggered landslides occurring between 2006 and 2017. Finally, all data were geographically contextualized using the Natural Earth “Admin 0 – Countries” vector dataset (1:10m scale) to define the national administrative boundaries for the study area.
-
-
-
-
-
-
-
-
-
-\subsection{Method}
-
-The methodology adopted in this study is systematically illustrated in Fig[\ref{fig:research-workflow}]. The research commenced with an extensive literature review on soil characteristics and landslide occurrences to gather relevant data. Subsequently, three distinct datasets were compiled and integrated.
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=\linewidth]{fig2.png}}
-    \caption{research workflow}
-    \label{fig:research-workflow}
-    \vspace{-5mm}
-\end{figure}
-This integration process was guided by two primary references: the HWSD Technical Report and Instructions and a technical note by D.G. Rossiter, Processing the HWSD Version 1.2 in R. A detailed flowchart of the data integration procedure is presented in Fig[\ref{fig:data-integration-workflow}]. From the study area, a total of 2,210 landslide and non-landslide data, each corresponding to different soil characteristics, were identified.
 
 \begin{table}[H]
 \caption{Field Availability in Soil Databases (Simplified)}
@@ -103,10 +79,15 @@ AWC\_CLASS & AWC Class & $\surd$ \\
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=\linewidth]{fig3.png}}
     \caption{Data Integration Workflow}
-    \label{fig:data-integration-workflow}
+    \label{fig:data_integration_workflow}
     \vspace{-5mm}
 \end{figure}
 
+The process of integrating the three data sets was guided by two main references: the first one is HWSD Official Technical Report and Instructions, this report was essential as it provides the technical methodology for utilizing the HWSD data. The HWSD itself is a comprehensive global dataset developed by the FAO and IIASA precisely to address the long-standing lack of reliable, harmonized soil information, which has historically hampered environmental studies and predictive modeling. And the second one is a technical note by Professor D.G. Rossiter from Cornell University, Processing the HWSD Version 1.2 in R, This note explains how to access and query the HWSD data. This allows integration of the HWSD with any other geographic coverage, as well as statistical summaries. A detailed flowchart of the data integration procedure is presented in Fig[\ref{fig:data_integration_workflow}], where the final result of this integration process is a dataset containing detailed soil characteristics of two layers of topsoil and subsoil in various countries, as well as landslide occurrence data with accurate geographic mapping.
+
+
+
+\subsection{Method}
 Following data integration, a comprehensive data preprocessing phase was conducted. This began with data cleaning, in which missing values were imputed using the median of their respective columns. Subsequently, outlier handling was performed using the Interquartile Range (IQR) method\cite{mthd01}. This analysis revealed numerous outliers across most feature columns; these were also imputed using the column-specific median in order to maintain data integrity.
 The next stage focused on feature selection. Features were removed based on three criteria: identifier columns (as listed in Table~[\ref{tab:soil_field_availability_small}]), columns containing only a single unique value, and those with low feature importance scores method. A machine learning-based approach using the XGBoost algorithm was employed to assess the importance of each remaining feature\cite{mthd02}. The results of this analysis, visualized in Fig[\ref{fig:feature-importance}], identified two features \texttt{AWC\_CLASS} and \texttt{S\_CASO4} with an importance score of zero. Consequently, these non-contributory features were removed from the dataset.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.5)  7 NOV 2025 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.5)  8 NOV 2025 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -421,77 +421,87 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (sections/introduction/introduction.tex) (sections/method/method.tex [1{C:/Users/ADVAN/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+) (sections/introduction/introduction.tex [1{C:/Users/ADVAN/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-]
-<fig1.png, id=63, 1003.8303pt x 426.393pt>
+]) (sections/method/method.tex
+<fig1.png, id=68, 1003.8303pt x 426.393pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 10.
+Package pdftex.def Info: fig1.png  used on input line 7.
 (pdftex.def)             Requested size: 252.0pt x 107.0404pt.
-<fig2.png, id=68, 683.55376pt x 432.61626pt>
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 69.
-(pdftex.def)             Requested size: 252.0pt x 159.4846pt.
- [2 <./fig1.png> <./fig2.png>]
-<fig3.png, id=83, 804.00375pt x 723.70375pt>
+<fig3.png, id=75, 804.00375pt x 723.70375pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 104.
+Package pdftex.def Info: fig3.png  used on input line 80.
 (pdftex.def)             Requested size: 252.0pt x 226.83047pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 111.
+ [2 <./fig1.png>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 92.
  (C:\Users\ADVAN\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<fig4.png, id=89, 714.7503pt x 426.393pt>
+<fig4.png, id=96, 714.7503pt x 426.393pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 115.
+Package pdftex.def Info: fig4.png  used on input line 96.
 (pdftex.def)             Requested size: 252.0pt x 150.33282pt.
  [3 <./fig3.png> <./fig4.png>]
-Underfull \hbox (badness 1496) in paragraph at lines 183--184
+Underfull \hbox (badness 1496) in paragraph at lines 164--165
 \OT1/ptm/m/n/10 val-i-da-tion us-ing a 5-fold Strat-i-fied-K-Fold cross-validation
  []
 
-<fig5.png, id=128, 498.86375pt x 490.83376pt>
+<fig5.png, id=136, 498.86375pt x 490.83376pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 190.
+Package pdftex.def Info: fig5.png  used on input line 171.
 (pdftex.def)             Requested size: 252.0pt x 247.94023pt.
 [4 <./fig5.png>]) (sections/result/result.tex
-Underfull \hbox (badness 10000) in paragraph at lines 212--1
+Underfull \hbox (badness 10000) in paragraph at lines 193--1
 
  []
 
-<fig6.png, id=159, 576.65437pt x 381.67593pt>
+<fig6.png, id=166, 576.65437pt x 381.67593pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
 Package pdftex.def Info: fig6.png  used on input line 7.
 (pdftex.def)             Requested size: 252.0pt x 166.79645pt.
-<fig7.png, id=163, 499.3857pt x 395.3169pt>
+<fig7.png, id=170, 499.3857pt x 395.3169pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
 Package pdftex.def Info: fig7.png  used on input line 21.
 (pdftex.def)             Requested size: 252.0pt x 199.48566pt.
-<fig8.png, id=164, 859.2903pt x 354.123pt>
+<fig8.png, id=171, 859.2903pt x 354.123pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
 Package pdftex.def Info: fig8.png  used on input line 26.
 (pdftex.def)             Requested size: 252.0pt x 103.84937pt.
 [5 <./fig6.png> <./fig7.png>]
-<fig9.png, id=180, 323.7696pt x 328.8285pt>
+<fig9.png, id=187, 323.7696pt x 328.8285pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
 Package pdftex.def Info: fig9.png  used on input line 36.
 (pdftex.def)             Requested size: 252.0pt x 255.9383pt.
-<fig10.png, id=181, 338.2236pt x 284.0211pt>
+<fig10.png, id=188, 338.2236pt x 284.0211pt>
 File: fig10.png Graphic file (type png)
 <use fig10.png>
 Package pdftex.def Info: fig10.png  used on input line 41.
 (pdftex.def)             Requested size: 252.0pt x 211.61548pt.
-) (sections/discussion/discussion.tex [6 <./fig8.png> <./fig9.png> <./fig10.png>]) (sections/conclusion/conclusion.tex) [7]
+) (sections/discussion/discussion.tex [6 <./fig8.png> <./fig9.png> <./fig10.png>]) (sections/conclusion/conclusion.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[]\OT1/ptm/m/n/8 Natural Earth, "Ad-min 0 { Coun-tries (ver-sion 5.1.1),"
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+\OT1/ptm/m/n/8 *Nat-u-ral Earth Data*, Sep. 25, 2009. [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+\OT1/ptm/m/n/8 https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-
+ []
+
+[7]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -514,17 +524,17 @@ Package rerunfilecheck Info: File `IEEE-conference-template-062824.out' has not 
 (rerunfilecheck)             Checksum: 6F0D4B055171A2DA53367AAFB75376AA;1223.
  ) 
 Here is how much of TeX's memory you used:
- 11789 strings out of 474486
- 187260 string characters out of 5743756
- 1948542 words of memory out of 5000000
+ 11794 strings out of 474486
+ 187283 string characters out of 5743756
+ 1951542 words of memory out of 5000000
  33818 multiletter control sequences out of 15000+600000
- 601155 words of font info for 124 fonts, out of 8000000 for 9000
+ 601662 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,1436b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1610b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ADVAN/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IEEE-conference-template-062824.pdf (8 pages, 656428 bytes).
+Output written on IEEE-conference-template-062824.pdf (8 pages, 645525 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
